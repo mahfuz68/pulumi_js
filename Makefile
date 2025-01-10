@@ -1,8 +1,8 @@
 up_l1:
-	pulumi up
+	cd lab1 && pulumi up
 
 down_l1:
-	pulumi destroy
+	pulumi destroy 
 
 stack_rm:
 	pulumi stack rm
